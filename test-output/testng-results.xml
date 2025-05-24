@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-24T16:00:52 IST" name="Default suite" finished-at="2025-05-24T16:00:57 IST" duration-ms="5611">
+    <groups>
+    </groups>
+    <test started-at="2025-05-24T16:00:52 IST" name="Default test" finished-at="2025-05-24T16:00:57 IST" duration-ms="5611">
+      <class name="demo.ECommerceAPITest">
+        <test-method is-config="true" signature="login()[pri:0, instance:demo.ECommerceAPITest@5149d738]" started-at="2025-05-24T16:00:52 IST" name="login" finished-at="2025-05-24T16:00:55 IST" duration-ms="3679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addProduct()[pri:1, instance:demo.ECommerceAPITest@5149d738]" started-at="2025-05-24T16:00:55 IST" name="addProduct" finished-at="2025-05-24T16:00:57 IST" duration-ms="1406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct -->
+        <test-method signature="createOrder()[pri:2, instance:demo.ECommerceAPITest@5149d738]" started-at="2025-05-24T16:00:57 IST" name="createOrder" finished-at="2025-05-24T16:00:57 IST" depends-on-methods="demo.ECommerceAPITest.addProduct" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrder -->
+        <test-method signature="deleteProduct()[pri:3, instance:demo.ECommerceAPITest@5149d738]" started-at="2025-05-24T16:00:57 IST" name="deleteProduct" finished-at="2025-05-24T16:00:57 IST" depends-on-methods="demo.ECommerceAPITest.createOrder" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProduct -->
+      </class> <!-- demo.ECommerceAPITest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
